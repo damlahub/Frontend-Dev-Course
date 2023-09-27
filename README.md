@@ -1,5 +1,5 @@
 # Frontend-Dev-Course
-ISMEK
+
 ## HAFTALAR
 [Hafta 00](https://github.com/damlahub/Frontend-Dev-Course/tree/main/Hafta-00)  // HTML ve CSS temellerini öğrendiğimiz bir hafta oldu.
 
