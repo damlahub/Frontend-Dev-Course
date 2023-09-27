@@ -8,7 +8,7 @@ Kurs, İstanbul ilinin Bahçelievler ilçesinde bulunmaktadır. İnternet üzeri
 
 [Bilişim Teknolojileri Okulu / Bahçelievler](https://enstitu.ibb.istanbul/portal/kurs_icerik.aspx?KursMerkezi=1076)
 
-Eğer sınava girmeden önce farklı bir kurs bulursanız, son dakikada olsa kayıt olup diğer sınava girebilirsiniz. Başarılarınızı şimdiden kutluyoruz!
+Eğer sınava girmeden önce farklı bir kurs bulursanız, son dakikada olsa kayıt olup diğer sınava girebilirsiniz. Başarılarınızı şimdiden kutluyorum!
 
 Programın Amacı:
 > Front End Developer, web uygulamalarının arka planında işleyen sistemi kullanıcıya en iyi şekilde sunmayı hedefleyen bir programdır. Bu eğitimle katılımcılar; HTML, CSS ve JavaScript dillerinde uzmanlaşarak, görsel açıdan etkileyici ve işlevsel web uygulamaları geliştirebilir.
