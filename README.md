@@ -1,7 +1,10 @@
 # Frontend-Dev-Course
 
-## HAFTALAR
-[Hafta 00](https://github.com/damlahub/Frontend-Dev-Course/tree/main/Hafta-00)  // HTML ve CSS temellerini öğrendiğimiz bir hafta oldu.
+# HAFTALAR
+## [Hafta 00 - 01](https://github.com/damlahub/Frontend-Dev-Course/tree/main/Hafta_0-1)
+- HTML-CSS
+- Swiper ile Slider
+- Google Clone
 
 ## KURS HAKKINDA
 Kurs, İstanbul ilinin Bahçelievler ilçesinde bulunmaktadır. İnternet üzerinden kayıt olmanız mümkündür. Bilişim alanında birçok ücretsiz eğitim bulunmaktadır. İncelemek isterseniz aşağıdaki linki kullanabilirsiniz.
