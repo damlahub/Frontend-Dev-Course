@@ -3,4 +3,5 @@ https://fontawesome.com/  -> icon vs.
 https://www.pexels.com/  -> ücretsiz foto
 https://www.free-css.com/  -> CSS template
 https://mycolor.space/gradient?ori=to+left+bottom&hex=%23FF0091&hex2=%23FF99CF&sub=1  -> gradient
-Swipe -animasyonlu
+https://swiperjs.com/ - animasyonlu geçiş vs.
+CSS Peeper (EKLENTİ)- Sitedeki resimleri, padding, margin vs. gösterir

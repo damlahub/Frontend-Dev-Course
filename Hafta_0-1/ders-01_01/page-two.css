@@ -1,0 +1,118 @@
+body{
+    background-color: blanchedalmond;
+}
+.container{
+   /* max-width: fit-content;
+     Kapladığı Kadar. */
+    width: 85%;
+    height: 90vh;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    color: black;
+}
+header{
+    width: 102%;
+    background-color: rgb(48, 48, 48);
+    padding: 5px;
+    margin-bottom: 20px;
+}
+#menu{
+    width: 90%;
+    margin: 10px auto;
+    background-color: pink;
+}
+#menu a{
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+    background-color: #000000;
+    padding: 10px;
+    border-radius: 20px;
+    transition: all 1s ease-in;
+}
+#menu a:hover{
+    background-color: rgb(255, 109, 141);
+    color:#000000;
+    transition: all 1s ease-in;
+}
+.content,aside{
+    padding: 5px;
+    width: 100%;
+    height: 500px;
+    background-color: gray;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.content .left, .content .right{
+    width: 49%;
+    height: 500px;
+    background-color: white;
+    position: relative;
+    float: left;
+    margin-left: 10px;
+}
+/* Swiper 1 */
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  /* Swiper 2 */
+  .right .swiper-pagination-bullet {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+    color: white;
+    opacity: 1;
+    background: black;
+  }
+
+  aside{
+      height: 350px;
+      font-style: italic;
+  }
+  article{
+      width: 49%;
+      height: 100%;
+      background-color: rgb(0, 140, 255);
+      color: white;
+      position: relative;
+      float: left;
+      margin-right: 5px;
+  }
+  article h3{
+      text-align: center;
+  }
+  article ul{
+      width: 90%;
+      margin-top: 50px;
+  }
+  article ul li{
+      list-style: none;
+      margin: 15px;
+      text-align: center;
+  }
+  article ul li a{
+      text-decoration: none;
+      color: white;
+      font-size: 16pt;
+  }
