@@ -204,5 +204,55 @@ margin => dış boşluk    padding=> iç boşluk
 ```line-height``` Satır yüksekliğini belirtir.
 
 ## Ders 01
+
 Bu ders ise HTML ile birlikte temel CSS öğrendik ve HTML5 temel etiketlerine giriş yaptık. İlk bölümü hocamız yaptı ve daha ikinci bölümü ise bizim yapmamızı istedi.   
+![ders01-top](https://github.com/damlahub/Frontend-Dev-Course/blob/main/Hafta_0-1/ss/Images/ders-01-top.png)
+
+```html
+        <img src="Assets/bg.jpg" alt="">
+```
+
+Resim eklemize olanak sağlayan html kodudur. "src" ile resmimizin yolunu belirtiriz. "alt" ise resmin açıklamasıdır.
+
+```html
+        <a href="mailto:damlaoksel@hotmail.com">
+            Bana Ulaş!
+        </a>
+```
+
+"mailto: mail@mail.com" bağlantıya tıkladığımızda, kullanıcının varsayılan e-posta istemcisinde yeni bir e-posta penceresi açar ve "mail@mail.com" adresine yönlendirilmiş bir ileti oluşturur.
+
+Hocamız ilk kısmı kendi yaptıktan sonra ikinci kısmı kendimizin yapmasını söyledi. Sonuç:
+
+![odev](https://github.com/damlahub/Frontend-Dev-Course/blob/main/Hafta_0-1/ss/Images/ders-01-bottom.png)
+
+Sonlara doğru ise HTML5 etiketlerini görmeye başladık.
+
+![html5](https://github.com/damlahub/Frontend-Dev-Course/blob/main/Hafta_0-1/ss/Images/ders-01-HTML5.png)
+
+Burada butonlarımıza geçiş animasyonu verdik. Nasıl mı?
+
+![html5](https://github.com/damlahub/Frontend-Dev-Course/blob/main/Hafta_0-1/ss/GIF/button-animation.gif)
+
+```css
+#menu a:hover{
+    background-color: rgb(255, 109, 141);
+    color:#000000;
+    transition: all 1s ease-in;
+}
+```
+
+```:hover``` Elementin üstüne geldiğimizde uygulanacak özellikleri içerir.
+
+```transition``` Geçiş efekti tanımlamak için bir özelik.
+
+```all``` Tüm özellikleri kapsar.
+
+```1s``` Geçiş süresi.
+
+```ease-in``` Zamandaki geçiş.
+
+
+
+
 
