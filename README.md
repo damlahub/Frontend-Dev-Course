@@ -30,9 +30,9 @@ Kaynaklar:
 >> Eğitim için gerekli doküman ve kaynaklar, ders esnasında katılımcılar ile paylaşılacaktır.
 
 ## SINAV HAKKINDA
-"Front End Developer" sınavı, tecrübelerime dayanarak basitten zora doğru sorular içermektedir. Çoğu soru kısayol ve internetle ilgilidir. Tabii ki, sınav içeriği değişebilir. Benim girdiğim sınavda bu konular vardı. :)
+"Front End Developer" sınavı, tecrübelerime dayanarak basitten zora doğru sorular içeriyor. Çoğu soru kısayol ve internetle ilgiliydi. Tabii ki, sınav içeriği değişebilir. Benim girdiğim sınavda bu konular vardı. :)
 
 Eğer "TCP/IP" görürseniz, cevap kesinlikle o şıktır! :D
 
 Sınavda çevrenizdeki kalabalığa aldanmayın; birçok kişi sadece kendini denemek için geliyor (Yanılmıyorsam). Kesin olarak sınavda başarılı olan ilk x kadarını alıyorlar. İlk derste gelmeyen olursa, arayıp "kesin gelmeyecek" olanların yerine yedek listesindeki kişileri alıyorlar. Bu nedenle sınavda pes etmeyin.
-* Eğer bilmediğiniz bir soruyla karşılaşırsanız, size en doğru gelen şıkkı işaretleyin. Çünkü yanlış cevaplar, doğru cevapları götürmez (Bu benim en sevdiğim şeydir).
+* Eğer bilmediğiniz bir soruyla karşılaşırsanız, size en doğru gelen şıkkı işaretleyin. Çünkü yanlış cevaplar, doğru cevapları götürmüyor (Bu benim en sevdiğim şeydir).
