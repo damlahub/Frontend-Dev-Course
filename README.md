@@ -1,4 +1,5 @@
 # Frontend-Dev-Course
+Bilişim Teknolojileri Okulu
 
 # HAFTALAR
 ## [Hafta 00 - 01](https://github.com/damlahub/Frontend-Dev-Course/tree/main/Hafta_0-1)
