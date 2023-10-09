@@ -252,7 +252,46 @@ Burada butonlarımıza geçiş animasyonu verdik. Nasıl mı?
 
 ```ease-in``` Zamandaki geçiş.
 
+## Ders 02
 
+Bu derste slider ve bir önceki dersten kalan HTML5 derslerine devam ettik.
+
+![swiper-slider](https://github.com/damlahub/Frontend-Dev-Course/blob/main/Hafta_0-1/ss/GIF/slide-swiper.gif)
+
+İlk olarak aşağıdaki linke gidiyoruz.
+
+[Swiper Demos](https://swiperjs.com/demos)
+
+Bu siteden ihtiyacımıza göre bir tanesini seçiyoruz ve üst taraftan "Preview" kısmına tıklıyoruz daha sonrasında ise sağ tıklayıp "Sayfa kaynağını görüntüle" dedikten sonra 
+
+```<head></head>``` etiketlerimizin arasına,
+
+```html
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+```
+kodunu yapıştırarak "Swiper" kütüphanesini ekliyoruz. Daha sonrasında kaynak kodlarımızdan css ve js kodlarını alıyoruz ve projemize ekliyoruz.
+
+Daha sonrasında ise bir önceki derse devam ederek, HTML5 etiketlerimizi öğrendik.
+
+![](https://github.com/damlahub/Frontend-Dev-Course/blob/main/Hafta_0-1/ss/GIF/two-slider.gif)
+![](https://github.com/damlahub/Frontend-Dev-Course/blob/main/Hafta_0-1/ss/Images/ders-01_01-bottom.png)
+
+Aşağı kısmında ise sosyal medya ve harita ekledik.
+
+Haritayı,
+
+Google Maps'ten direkt kodu alıp, yapıştırabiliriz.
+
+## Ders 03
+
+Bu derste sadece Google Clone'u yaptık. Bunu daha önceden yapmıştım ama yine de hoca ile gidip farklı bakış açısı görmek istedim.
+
+Hoca ile yaptığımız,
+![](https://github.com/damlahub/Frontend-Dev-Course/blob/main/Hafta_0-1/ss/Images/ders-02_Google.png)
+
+Kendi başıma yaptığıma da bakmak isterseniz aşağıdaki linkten ulaşabilirsiniz.
+
+[Kendi Başıma Yaptığım](https://github.com/damlahub/GoogleMainMenu-Clone)
 
 
 
