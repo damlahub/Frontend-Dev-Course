@@ -1,4 +1,4 @@
-# Hafta 00
+# Hafta 00 - 01
 
 ## Ders 00
 Bu derste Visual Code'un temel kullanımını öğrendikten sonra HTML ve CSS'in temellerine geçtik.
