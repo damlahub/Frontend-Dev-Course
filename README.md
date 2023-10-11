@@ -6,7 +6,7 @@ Bilişim Teknolojileri Okulu
 - HTML-CSS
 - Swiper ile Slider
 - Google Clone
-## [Hafta 02](https://github.com/damlahub/Frontend-Dev-Course/tree/main/Hafta_0-1)
+## [Hafta 02](https://github.com/damlahub/Frontend-Dev-Course/tree/main/Hafta_2)
 - Formlar
 - Facebook Login Clone
 ## KURS HAKKINDA
