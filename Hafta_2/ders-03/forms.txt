@@ -1,0 +1,19 @@
+ilk <form> etiketi ile form oluşturacağımızı belirttik.
+        <form action="" method="get">
+        </form>
+method - Hangi metod kullanılarak form değerleri iletileceği belirlenir. action - Form bilgilerinin hangi adrese gönderileceği belirlenir.
+
+<input type="text" name="username" id="username" value="User Name" placeholder="username" title="username" autofocus required>
+
+type => input tipini belirtir.
+name => inputun ismi
+id => inputun idsi
+value => Varsayılan değer.
+placeholder => Silik tıklandığında silinen yazı.
+title => inputun başlığı, üstüne gelindiğinde gözüken isimdir.
+autofocus => odaklar. Dezavantaj sayfayı en alta götürür. Bu yüzden üstte olması daha iyidir.
+required => Zorunlu Alan
+        <label for="username">
+            Kullanıcı Adı: 
+        </label>
+for kısmına, inputun idsini yazdığımızda yazıya tıklandığında direkt olarak o inputa veri girişimizi sağlar.

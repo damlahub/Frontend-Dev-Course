@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <section>
+        <h3>Form Elements</h3>
+        <!-- <input type="hidden" name=""> -->
+        <form action="" method="post">
+            <!--Post daha güvenilirken, get güvenliği daha düşüktür.-->
+            <label for="username">
+                Username:
+            </label>
+            <input type="text" name="username" id="username" value="User Name" placeholder="username"
+                title="username"><br>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" placeholder="password" required><br>
+            <label for="age">Age:</label>
+            <input type="number" name="age" id="age" placeholder="age" value="18"><br>
+            <label for="mail">E-mail: </label>
+            <input type="email" name="mail" id="mail" placeholder="e-mail"><br><br>
+
+            <button><i>italic </i>Send</button>
+            <!--Normal Düğme - Eğil yazı, kalın yazi yazilabilir.-->
+            <input type="button" value="Send">
+            <!--input  Düğme-->
+            <input type="submit" value="Send">
+            <!--input - submit Düğme-->
+            <input type="reset" value="Reset-Clear">
+            <!--input - reset Düğme-->
+        </form>
+    </section>
+    <section>
+        <fieldset>
+            <legend>Education</legend>
+            Education1 <br>
+            Education2 <br>
+            Education3 <br>
+        </fieldset>
+        <details>
+            <summary>Click Me!</summary>
+            <p>Hi, everybody!</p>
+        </details>
+        <details>
+            <summary>Combobox</summary>
+            <fieldset>
+                <legend>Combobox</legend>
+                <label for="list">Choose a option:</label>
+                <select id="list">
+                    <option>one</option>
+                    <option>two</option>
+                    <option>three</option>
+                    <option>four</option>
+                </select>
+            </fieldset>
+        </details>
+        <details>
+            <summary>Checkbox</summary>
+            <form>
+                <input type="checkbox" name="checkbox" id="checkbox1"><label for="checkbox1">Damla</label>
+                <input type="checkbox" name="checkbox" id="checkbox2"><label for="checkbox2">Öksel</label>
+                <input type="checkbox" name="checkbox" id="checkbox3"><label for="checkbox3">Damla Öksel</label>
+                <hr>
+                <input type="color" name="background" id="background"><br>
+                <input type="date" name="date" id="date"><br>
+                <input type="time" name="time" id="time"><br>
+                <input type="radio" name="radio" id="r1" checked>
+                <label for="r1">radio1</label>
+                <input type="radio" name="radio" id="r2">
+                <label for="r2">radio2</label>
+                <input type="radio" name="radio" id="r3">
+                <label for="r3">radio3</label>
+            </form>
+        </details><br>
+        <label for="file">Upload File: </label><br>
+        <input type="file" name="file" id="file"><br>
+        <label for="range">Volume:</label>
+        <input type="range" name="range" id="range" value="100"><br>
+        <label for="textbox">Message: </label> <br>
+        <textarea name="textbox" id="textbox" cols="35" rows="15" placeholder="Message..."></textarea><br>
+        <label for="month">Month: </label>
+        <input type="month" name="month" id="month">
+    </section>
+    <hr>
+    <section id="damla"> 
+        <h1>Damla ÖKSEL</h1>
+        <form>
+            <label for="name">Adınız:</label>
+            <input type="text" name="name" id="name"><br><br>
+            <label for="surname">Soyadınız:</label>
+            <input type="text" name="surname" id="surname"><br><br>
+            <label for="pass">Şifreniz:</label>
+            <input type="password" name="pass" id="pass"><br><br>
+            <label>Cinsiyetiniz:</label>
+            <input type="radio" name="gen" id="man"><label for="man">Erkek</label>
+            <input type="radio" name="gen" id="woman"><label for="woman">Kadın</label><br><br>
+            <label>Bildiğiniz Diller:</label>
+            <input type="checkbox" name="lang" id="eng"><label for="eng">İngilizce</label>
+            <input type="checkbox" name="lang" id="ger"><label for="ger">Almanca</label>
+            <input type="checkbox" name="lang" id="frenc"><label for="frenc">Fransızca</label><br><br>
+            <label for="coun">Yaşadığınız İl:</label>
+            <select name="coun" id="coun">
+                <option value="İstanbul">İstanbul</option>
+                <option value="Ankara">Ankara</option>
+                <option value="Adana">Adana</option>
+            </select><br><br>
+            <label for="address">Adresiniz: </label><br><br>
+            <textarea name="address" id="address" cols="60" rows="10"></textarea><br><br>
+            <input type="button" value="Gönder">
+            <input type="submit" value="Temizle">
+        </form>
+    </section>
+</body>
+
+</html>
