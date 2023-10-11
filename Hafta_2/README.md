@@ -20,7 +20,7 @@ action - Form bilgilerinin hangi adrese gönderileceği belirlenir.
 
 ```type``` input tipini belirtir.
 
-```name``` inputun ismi
+```name``` veri tabanında gözükecek ismi.
 
 ```id``` inputun idsi
 
