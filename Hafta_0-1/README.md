@@ -3,7 +3,7 @@
 ## Ders 00
 Bu derste Visual Code'un temel kullanımını öğrendikten sonra HTML ve CSS'in temellerine geçtik.
 
-![ders-00](https://github.com/damlahub/Frontend-Dev-Course/blob/main/Hafta_0-1/ss/Images/ders00-top.png)
+![ders-00](https://github.com/damlahub/Frontend-Dev-Course/blob/main/Hafta_0-1/ss/Images/ders-00-top0.png)
 
 İlk sayfamızın üst kısmını inceleyelim.
 
@@ -53,19 +53,245 @@ Biz fotoğrafa bastığımızda bir başka sayfaya geçmek istedik. Bunun için 
 ```
 
 ```<a href="page2.html" target="_parent">``` etiketini anlatmam gerekirse,
-- ```<a></a>``` etiketi bir bağlantı oluşturur. Bu etiket parametreler içerir.
+- ```<a></a>``` etiketi bir bağlantı oluşturur. Bu etiket birçok özellik içerir.
 - href="page.html" yönlendirmek istediğimiz bağlantımızı href="" içine yazıyoruz.
 - target="_parent" ise sekmenin hangi şekide açılacağını belirtmek içindir. (Farklı sekme? Aynı sekme?...) 
 
-Şimdi ise sayfamızın alt kısmını inceleyelim.
+Şimdi ise sayfamızın alt kısmını inceleyelim. 
 
-![ders-00-bottom](https://github.com/damlahub/Frontend-Dev-Course/blob/main/Hafta_0-1/ss/Images/ders-00-bottom.png)
+Sayfamızın alt kısmında sıralı liste, sırasız liste ve iç içe liste yapmayı öğrendik.
 
+![ders-00-bottom](https://github.com/damlahub/Frontend-Dev-Course/blob/main/Hafta_0-1/ss/Images/ders-00-bottom0.png)
 
+İlk öncelikle "ol" ve "ul" etiketleri ile sıralı-sırasız bir liste oluşturacağınızı belirtiyorsunuz. Daha sonrasında ise "li" etiketi ile listenin içine oluşturmak istediğiniz içerikleri belirtiyorsunuz.
 
-![Ders00](https://github.com/damlahub/Frontend-Dev-Course/blob/main/Hafta-00/ss/ders-00.gif)
+Liste oluştururken kısayol: ol>li*3{liste} 
+
+## Sırasız Liste
+
+```html
+    <ul type="circle">
+        <li>Damla</li>
+        <li>Öksel</li>
+        <li>22</li>
+    </ul>
+```
+
+```<ul></ul>``` Sırasız bir liste oluşturacağımız anlamına gelir.
+
+```<li></li>``` Listemizdeki ögeleri temsil eder.
+
+```type="circle"``` bu listenin bir özelliğidir. Liste ögelerinin işaret tipini belirler.(disc, square, circle)
+
+## Sıralı Liste
+
+```html
+    <ol reversed start="5" >
+        <li>liste</li>
+        <li>liste</li>
+        <li>liste</li>
+    </ol>
+```
+
+```<ol></ol>``` Sıralı bir liste oluşturacağımız anlamına gelir.
+
+```<li></li>``` Listemizdeki ögeleri temsil eder.
+
+```start="5"``` Listemizin beş numaradan başlayacağı anlamına gelir ve "altıncı, yedinci..." olarak devam eder.
+
+```reversed``` Bu ise listenin sırasını tam tersine çevirir. Örneğin; 1-2-3 => 3-2-1 olur.
+
+## İç İçe Liste
+
+```html
+    <ol>
+        <li>damla</li>
+        <li>damla
+            <ul type="circle">
+                <li>merhaba</li>
+                <li>merhaba</li>
+            </ul>
+        </li>
+        <li>damla</li>
+    </ol>
+```
+
+Bu koda baktığımızda, ilk olarak sıralı bir liste oluşturduk. Daha sonrasında bu listemize ögelerimizi ekledikten sonra listemizin ikinci ögesinin içine bir sırasız liste oluşturduk ve içine tekrardan ögelerimizi ekledik. Eklediğimiz ögelerin işaret tipini ise "circle" olarak belirttik.
+
+Şimdi de resmimize bastığımızda geçtiğimiz ikinci sayfayı inceleyelim.
+
+![page2](https://github.com/damlahub/Frontend-Dev-Course/blob/main/Hafta_0-1/ss/Images/ders-00-page2_0.png)
+
+İkinci sayfamızda CSS'e giriş yaptığımızı söyleyebilirim.
+
+İlk öncelikle "class" ve "id" kavramlarını çok iyi bilmemiz gerekir.
+
+"id" (Kimlik): Tıpkı T.C. Kimlik Numaranız gibi, her bir öge için benzersiz bir tanımlama sağlar. Her öge sadece bir id'ye sahip olabilir.
+
+"class" (Sınıf): Saç renginiz gibi, bir grup ögeyi belirlemek için kullanılır. Bir öğe birden çok sınıfa ait olabilir.
+
+Derste yaptıklarımıza bakma zamanı geldi!
+
+```html
+    <div class="box">
+        <p>Damla</p>
+    </div>
+    <section>
+        MERHABA, DÜNYA!
+    </section>
+```
+
+```<div></div>``` Sayfamızda bir bölüm oluşturur.
+
+```<section></section>``` Sayfamızda bir bölüm oluşturur ve HTML5' de bu etiketi kullanıyoruz.
+
+Arasındaki fark ne diye ChatGPT'ye soralım.
+
+> div Elementi:
+>> div (division) elementi, belirli bir bölgeyi gruplamak, stil vermek veya JavaScript ile etkileşim eklemek gibi genel amaçlı kullanılan bir yapı elemanıdır. Temelde bir konteyner görevi görür ve içine herhangi bir HTML içeriği alabilir. Özel bir anlamı veya stili yoktur, sadece içindeki öğeleri bir araya getirir.
+> section Elementi:
+>> <section> elementi, belirli bir belge veya uygulama içinde bağımsız, bölümlenmiş bir içeriği temsil eder. Bu içerik, genellikle kendi başına anlamlı bir bölüm oluşturur ve başlık (h1, h2, vb.) ile birlikte kullanılır. Sayfanın yapısını belirtmek için kullanılır ve SEO açısından önemlidir.
+
+```
+    <div class="box">
+        <p>Damla</p>
+    </div>
+```
+
+Bir adet div oluşturduk ve bu divimize "box" classı verdik. İçine ise bir paragraf etiketi ekledik. Şimdi ise CSS kodlarımıza bakalım.
+
+```css
+.box{
+    width: 200px;
+    height: 200px;
+    color: red;
+    background-color: black;
+    text-align: center;
+}
+```
+
+```width / height``` Genişlik / Yükseklik
+
+```color``` Yazı rengini belirtir.
+
+```background-color``` Arka plan rengini değiştirir.
+
+```text-align``` Yazı konumunu ayarlar. left - center - right => start - center - end 
+
+Şimdi ise "section" css'ine bakalım.
+
+```css
+section{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    color:white;
+    margin-top: 25px;
+    box-shadow: 5px 5px 10px 3px black;
+    border-radius: 20%;
+    text-align: center;
+    line-height: 200px;
+}
+```
+margin => dış boşluk    padding=> iç boşluk
+
+```margin-top``` Bölümümüzün dış üst tarafından boşluk verir.
+
+```box-shadow``` Bölümümüze gölge verir. (x ekseni, y ekseni , puslandırma, yayılma, renk)
+
+```border-radius``` Köşeleri yuvarlar.
+
+```line-height``` Satır yüksekliğini belirtir.
 
 ## Ders 01
-Bu ders ise HTML ile birlikte temel CSS öğrendik ve HTML5 temel etiketlerine giriş yaptık. İlk bölümü hocamız yaptı ve daha ikinci bölümü ise bizim yapmamızı istedi.   
 
-![Ders01](https://github.com/damlahub/Frontend-Dev-Course/blob/main/Hafta-00/ss/ders-01.gif)
+Bu ders ise HTML ile birlikte temel CSS öğrendik ve HTML5 temel etiketlerine giriş yaptık. İlk bölümü hocamız yaptı ve daha ikinci bölümü ise bizim yapmamızı istedi.   
+![ders01-top](https://github.com/damlahub/Frontend-Dev-Course/blob/main/Hafta_0-1/ss/Images/ders-01-top.png)
+
+```html
+        <img src="Assets/bg.jpg" alt="">
+```
+
+Resim eklemize olanak sağlayan html kodudur. "src" ile resmimizin yolunu belirtiriz. "alt" ise resmin açıklamasıdır.
+
+```html
+        <a href="mailto:damlaoksel@hotmail.com">
+            Bana Ulaş!
+        </a>
+```
+
+"mailto: mail@mail.com" bağlantıya tıkladığımızda, kullanıcının varsayılan e-posta istemcisinde yeni bir e-posta penceresi açar ve "mail@mail.com" adresine yönlendirilmiş bir ileti oluşturur.
+
+Hocamız ilk kısmı kendi yaptıktan sonra ikinci kısmı kendimizin yapmasını söyledi. Sonuç:
+
+![odev](https://github.com/damlahub/Frontend-Dev-Course/blob/main/Hafta_0-1/ss/Images/ders-01-bottom.png)
+
+Sonlara doğru ise HTML5 etiketlerini görmeye başladık.
+
+![html5](https://github.com/damlahub/Frontend-Dev-Course/blob/main/Hafta_0-1/ss/Images/ders-01-HTML5.png)
+
+Burada butonlarımıza geçiş animasyonu verdik. Nasıl mı?
+
+![html5](https://github.com/damlahub/Frontend-Dev-Course/blob/main/Hafta_0-1/ss/GIF/button-animation.gif)
+
+```css
+#menu a:hover{
+    background-color: rgb(255, 109, 141);
+    color:#000000;
+    transition: all 1s ease-in;
+}
+```
+
+```:hover``` Elementin üstüne geldiğimizde uygulanacak özellikleri içerir.
+
+```transition``` Geçiş efekti tanımlamak için bir özelik.
+
+```all``` Tüm özellikleri kapsar.
+
+```1s``` Geçiş süresi.
+
+```ease-in``` Zamandaki geçiş.
+
+## Ders 02
+
+Bu derste slider ve bir önceki dersten kalan HTML5 derslerine devam ettik.
+
+![swiper-slider](https://github.com/damlahub/Frontend-Dev-Course/blob/main/Hafta_0-1/ss/GIF/slide-swiper.gif)
+
+İlk olarak aşağıdaki linke gidiyoruz.
+
+[Swiper Demos](https://swiperjs.com/demos)
+
+Bu siteden ihtiyacımıza göre bir tanesini seçiyoruz ve üst taraftan "Preview" kısmına tıklıyoruz daha sonrasında ise sağ tıklayıp "Sayfa kaynağını görüntüle" dedikten sonra 
+
+```<head></head>``` etiketlerimizin arasına,
+
+```html
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+```
+kodunu yapıştırarak "Swiper" kütüphanesini ekliyoruz. Daha sonrasında kaynak kodlarımızdan css ve js kodlarını alıyoruz ve projemize ekliyoruz.
+
+Daha sonrasında ise bir önceki derse devam ederek, HTML5 etiketlerimizi öğrendik.
+
+![](https://github.com/damlahub/Frontend-Dev-Course/blob/main/Hafta_0-1/ss/GIF/two-slider.gif)
+![](https://github.com/damlahub/Frontend-Dev-Course/blob/main/Hafta_0-1/ss/Images/ders-01_01-bottom.png)
+
+Aşağı kısmında ise sosyal medya ve harita ekledik.
+
+Haritayı,
+
+Google Maps'ten direkt kodu alıp, yapıştırabiliriz.
+
+## Ders 03
+
+Bu derste sadece Google Clone'u yaptık. Bunu daha önceden yapmıştım ama yine de hoca ile gidip farklı bakış açısı görmek istedim.
+
+Hoca ile yaptığımız,
+![](https://github.com/damlahub/Frontend-Dev-Course/blob/main/Hafta_0-1/ss/Images/ders-02_Google.png)
+
+Kendi başıma yaptığıma da bakmak isterseniz aşağıdaki linkten ulaşabilirsiniz.
+
+[Kendi Başıma Yaptığım](https://github.com/damlahub/GoogleMainMenu-Clone)
+
+
+
