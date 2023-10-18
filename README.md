@@ -9,6 +9,9 @@ Bilişim Teknolojileri Okulu
 ## [Hafta 02](https://github.com/damlahub/Frontend-Dev-Course/tree/main/Hafta_2)
 - Formlar
 - Facebook Login Clone
+## [Hafta 03](https://github.com/damlahub/Frontend-Dev-Course/tree/main/Hafta_3)
+- Responsive Menu
+- Basic Site
 ## KURS HAKKINDA
 Kurs, İstanbul ilinin Bahçelievler ilçesinde bulunmaktadır. İnternet üzerinden kayıt olmanız mümkündür. Bilişim alanında birçok ücretsiz eğitim bulunmaktadır. İncelemek isterseniz aşağıdaki linki kullanabilirsiniz.
 
