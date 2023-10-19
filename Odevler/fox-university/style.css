@@ -286,3 +286,147 @@
     font-weight: 400;
     padding-left: 10px;
 }
+/* Counter Section */
+#counter-section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(assets/asset\ 3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.counter-content{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.574), rgba(253, 97, 0, 0.579));
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.counter-content-top{
+    width: 80%;
+    height: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.counter-content-top img{
+    width: 540px;
+    height: 378px;
+}
+.counter-content-top-info{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.counter-content-top-info h1{
+    font-size: 40px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.counter-content-top-info p{
+    color: rgba(255, 255, 255, 0.812);
+    text-align: start;
+    font-size: 16px;
+}
+.counter-content-bottom{
+    width: 80%;
+}
+.counter-content-bottom ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.counter-content-bottom ul li{
+    list-style: none;
+    text-align: center;
+}
+.counter-content-bottom ul li h1{
+    font-size: 40px;
+}
+.counter-content-bottom ul li p{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+}
+/* Our Courses */
+#our-courses{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 112px 0;
+}
+#our-courses h1{
+    font-size: 44px;
+    color: rgba(0, 0, 0, 0.801);
+    line-height: 66px;
+}
+#our-courses p{
+    width: 70%;
+    font-size: 16px;
+    line-height: 28.8px;
+    color: rgba(0, 0, 0, 0.801);
+    padding-bottom: 50px;
+}
+.our-cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.our-card{
+    width: 24%;
+    height: 590px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.our-card img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+    
+}
+.our-card ul{
+    display: flex;
+    justify-content: space-between;
+}
+.our-card ul li{
+    display: flex;
+    list-style: none;
+}
+.our-card ul li i{
+margin-right: 5px;
+}
+.our-card ul li h6{
+    color: #666666;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.our-card h3 a{
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 24px;
+    text-decoration: none;
+    line-height: 36px;
+}
+.our-card p{
+    width: 100% !important;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 16px;
+    text-decoration: none;
+    text-align: start;
+    margin: 0;
+    padding: 0 !important;
+}
+.our-card button{
+    width: 110px;
+    height: 35px;
+}
