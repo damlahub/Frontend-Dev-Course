@@ -12,6 +12,11 @@ Bilişim Teknolojileri Okulu
 ## [Hafta 03](https://github.com/damlahub/Frontend-Dev-Course/tree/main/Hafta_3)
 - Responsive Menu
 - Basic Site (flexbox)
+- Ödev:
+  
+![odev1](https://github.com/damlahub/Frontend-Dev-Course/assets/69016971/01f642d9-7998-4c07-9f40-40aa7b8852fe)
+
+[Ödev - Fox University Kodlarım](https://github.com/damlahub/Frontend-Dev-Course/tree/main/Odevler/fox-university)
 ## KURS HAKKINDA
 Kurs, İstanbul ilinin Bahçelievler ilçesinde bulunmaktadır. İnternet üzerinden kayıt olmanız mümkündür. Bilişim alanında birçok ücretsiz eğitim bulunmaktadır. İncelemek isterseniz aşağıdaki linki kullanabilirsiniz.
 
