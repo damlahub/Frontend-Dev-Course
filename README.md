@@ -14,11 +14,12 @@ Bilişim Teknolojileri Okulu
 - Basic Site (flexbox)
 - Ödev:
   
-![odev1](https://github.com/damlahub/Frontend-Dev-Course/assets/69016971/01f642d9-7998-4c07-9f40-40aa7b8852fe)
+https://github.com/damlahub/Frontend-Dev-Course/assets/69016971/94170f2d-d48f-457c-aa28-4f895eaf4f34
+
 
 Responsive:
 
-https://github.com/damlahub/Frontend-Dev-Course/assets/69016971/c7a46cdd-fed3-4b27-a4f5-a333cfae5f7e
+https://github.com/damlahub/Frontend-Dev-Course/assets/69016971/a131c615-b74e-4329-99db-25343548517a
 
 [Ödev - Fox University Kodlarım](https://github.com/damlahub/Frontend-Dev-Course/tree/main/Odevler/fox-university)
 ## KURS HAKKINDA
