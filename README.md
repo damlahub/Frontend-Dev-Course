@@ -26,6 +26,10 @@ https://github.com/damlahub/Frontend-Dev-Course/assets/69016971/a131c615-b74e-43
 - Animasyon
 - Açılır Menü
 - Basic Site
+
+https://github.com/damlahub/Frontend-Dev-Course/assets/69016971/53793c48-b530-4a3f-9f5b-0e61e6c30fff
+
+[Ödev - Musico Kodlarım](https://github.com/damlahub/Frontend-Dev-Course/tree/main/Odevler/musico)
 - Ödev: 
 ## KURS HAKKINDA
 Kurs, İstanbul ilinin Bahçelievler ilçesinde bulunmaktadır. İnternet üzerinden kayıt olmanız mümkündür. Bilişim alanında birçok ücretsiz eğitim bulunmaktadır. İncelemek isterseniz aşağıdaki linki kullanabilirsiniz.
