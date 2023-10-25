@@ -22,6 +22,11 @@ Responsive:
 https://github.com/damlahub/Frontend-Dev-Course/assets/69016971/a131c615-b74e-4329-99db-25343548517a
 
 [Ödev - Fox University Kodlarım](https://github.com/damlahub/Frontend-Dev-Course/tree/main/Odevler/fox-university)
+## [Hafta 04](https://github.com/damlahub/Frontend-Dev-Course/tree/main/Hafta_4)
+- Animasyon
+- Açılır Menü
+- Basic Site
+- Ödev: 
 ## KURS HAKKINDA
 Kurs, İstanbul ilinin Bahçelievler ilçesinde bulunmaktadır. İnternet üzerinden kayıt olmanız mümkündür. Bilişim alanında birçok ücretsiz eğitim bulunmaktadır. İncelemek isterseniz aşağıdaki linki kullanabilirsiniz.
 
