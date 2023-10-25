@@ -1,0 +1,35 @@
+h3{
+    font-size: 50px;
+    line-height: 55px;
+    color: #001d38;
+}
+.standart-button{
+    width: 166px;
+    height: 49px;
+    border: 1px solid #ed1b1b;
+    color: #ed1b1b;
+    background-color: transparent;
+    transition: all .5s ease; 
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+}
+.standart-button:hover{
+    background-color: #ed1b1b;
+    color: white;
+}
+.reverse-button{
+    width: 166px;
+    height: 49px;
+    background-color: #ed1b1b;
+    color: white;
+    border: 1px solid #ed1b1b;
+    transition: all .5s ease; 
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+}
+.reverse-button:hover{
+    background-color: transparent;
+    color: white;
+}
