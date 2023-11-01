@@ -1,0 +1,25 @@
+sağ üstte versionu var. Bu farklı ise bazı özellikler desteklenmeyebilir.
+popper => açılır menü, pop-up vs var ise kullanılır.
+background-color -> bg-x
+color -> text-x
+
+ {property}   {sides}        - {size}
+ m: margin    t: top           mt-0 : margin-top:0
+ p: padding   b: bottom        mt-1 : margin-top: $spacer * 0.25
+ l: left                       mt-2 : margin-top: $spacer * 0.50
+ r: right                      mt-3 : 
+ x: left,right                 mt-4 : margin-top: $spacer * 1.5
+ y: top,bottom                 mt-5 : margin-top: $spacer * 3
+                               mx-auto : margin:auto -ortalar
+
+container-fluid => width:100%
+scroll-behavior: smooth; => yavas insin
+
+Toplam 12 Grid 
+
+col-sm: kolon 576px sonra etkilenecek.
+col-md: kolon 768px sonra etkilenecek.   // Containers kısmından bakabilirsin.
+
+w-50 - yüzde 50si kadar
+img-thumbnail - resime çerçeve ekler.
+spinners - loading

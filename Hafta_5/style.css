@@ -1,0 +1,83 @@
+.damla{
+    background-color: red;
+    color: white;
+    border: none;
+    transition: all .5s ease-in;
+}
+.damla:hover{
+    background-color: white;
+    color: red;
+}
+
+/* ------------------------------------------------------Bootstrap1.html -------------------------------------------------*/
+.accordion-button{ /*Açıkken*/
+    background-color: rgb(0, 255, 13) !important;
+    color: black !important;
+    background-image: none;
+}
+.accordion-button::after{
+    width: 0;
+    background-image: none;
+    content: '+';
+}
+.collapsed{ /*Kapalıyken*/
+    background-color: black !important;
+    color: white !important;
+}
+.accordion-body{
+    background-color: rgb(38, 38, 38);
+    color: white;
+    text-shadow: 1px 1px 5px rgb(0, 255, 13);
+}
+.modal-header,
+.modal-footer{
+    background-color: rgba(0, 0, 0, 0.899) !important;
+    color: white;
+}
+.modal-body{
+    background-color: orangered !important;
+}
+.btnorange{
+    background-color: orangered;
+}
+.btn-primary:focus-within{
+    background-color: black !important;
+}
+.btn-close{
+    background-color: aliceblue !important;
+}
+.modal{
+    background-color:rgba(255, 68, 0, 0.396);
+}
+#carouselExample .carousel-control-prev-icon,
+#carouselExample .carousel-control-next-icon{
+    background-image: url(idk.png);
+    border-radius: 50%;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.444);
+    font-size: large;
+    font-weight: bold;
+}
+#carouselExample .carousel-control-prev,
+#carouselExample .carousel-control-next{
+    background-color: rgb(0, 0, 0);
+    border-radius: 35px;
+    width: 35px;
+}
+#carouselExample .carousel-item{
+    height: 200px;
+}
+
+
+#carouselExampleIndicators  .carousel-control-prev-icon,
+#carouselExampleIndicators  .carousel-control-next-icon{
+    background-color: rgba(0, 0, 0, 0.444);
+    font-size: large;
+    font-weight: bold;
+}
+.carousel-indicators [data-bs-target]{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: green;
+}
