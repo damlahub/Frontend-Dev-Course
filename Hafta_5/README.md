@@ -1,7 +1,7 @@
-# Hafta 04
-## Ders 08 - 09
-İlk dersimizde animasyon ardından ise açılır menü öğrendik. Diğer dersimizde ise basit bir site yaparak bilgilerimizi pekiştirdik. 
+# Hafta 05
+## Ders 10 - 11
+Bootstrap'e giriş yaptık.
 
-https://github.com/damlahub/Frontend-Dev-Course/assets/69016971/b42a5f3b-1e02-4462-abc0-999e1afbb5ca
+https://github.com/damlahub/Frontend-Dev-Course/assets/69016971/782647f0-e2ef-4bef-a4d9-49d3ec72e724
 
-https://github.com/damlahub/Frontend-Dev-Course/assets/69016971/d3188678-fc6a-40da-a914-0e05c2494bee
+https://github.com/damlahub/Frontend-Dev-Course/assets/69016971/ab72503b-6107-414f-a263-3daa916d6409
