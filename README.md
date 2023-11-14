@@ -41,6 +41,10 @@ https://github.com/damlahub/Frontend-Dev-Course/assets/69016971/84742710-861c-42
 ## [Hafta 06](https://github.com/damlahub/Frontend-Dev-Course/tree/main/Hafta_6)
 - Bootstrap ile Mobilya Sitesi Yapımı
 - Bootstrap ile İstanbul Üniversitesi(AUZEF) Sitesi Yapımı
+## [Ara Tatil](https://github.com/damlahub/Frontend-Dev-Course/tree/main/Odevler/medium)
+- Ödev:
+  
+https://github.com/damlahub/Frontend-Dev-Course/assets/69016971/c24498af-b96b-428e-a2fa-0554bd02b460
 
 ## KURS HAKKINDA
 Kurs, İstanbul ilinin Bahçelievler ilçesinde bulunmaktadır. İnternet üzerinden kayıt olmanız mümkündür. Bilişim alanında birçok ücretsiz eğitim bulunmaktadır. İncelemek isterseniz aşağıdaki linki kullanabilirsiniz.
