@@ -17,10 +17,16 @@
     font-size: 14px;
     margin-top: 15px;
 }
+.font-sm-trend{
+    font-size: 12px;
+}
 .font-md{
     font-size: 14px;
 }
-
+.blog-box{
+    margin-left: 10px;
+    margin-top: 20px;
+}
 .blog-box-container:hover .blog-box{
     display: block !important;
     box-shadow: 2px 2px 15px 1px rgba(0, 0, 0, 0.289);
