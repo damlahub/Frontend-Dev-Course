@@ -2,7 +2,7 @@ let header = document.querySelector("#header");
 let intro = document.querySelector("#intro");
 header.style.zIndex="55";
 
-let headerDistance = intro.offsetHeight;
+let headerDistance = intro.offsetHeight-100;
 console.log(headerDistance);
 
 window.onscroll = function () {

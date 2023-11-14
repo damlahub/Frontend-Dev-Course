@@ -39,3 +39,6 @@
     position: sticky;
     top: 100px;
 }
+#header .row {
+    transition: background-color 0.5s ease;
+}
