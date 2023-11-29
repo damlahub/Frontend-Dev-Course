@@ -1,0 +1,64 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* Genel Stil Tanımlamalarını Yaptık */
+:root {
+    --headerBG: #5bc1ac;
+    --headerFG: #fff;
+    --yaziRenk: #aaa;
+}
+
+#ustMenu {
+    background-color: var(--headerBG);
+    color: var(--headerFG);
+    height: max-content;
+    padding: 10px 0;
+}
+
+.navbar-brand img {
+    width: 64px;
+    height: 64px;
+    float: left;  /* Kendisinden sonraki yazılar sağa hizalar */
+}
+.col-md-6 i { letter-spacing: 10px; }
+nav a {
+    color: var(--headerBG) !important;
+}
+
+/* ------------ Swiper JS BASLANGIC-------------------*/
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
+/* ------------------ Swiper JS BITIS --------------*/
+#bolum1 .col-md-3 {
+    width: 300px; margin: 10px;
+}
+#bolum1 .col-md-3,
+#bolum1 .col-md-3 img,
+#bolum1 .col-md-3 h5 { transition: .3s ease-in-out; scale: 1;}
+
+#bolum1 .col-md-3:hover {
+    box-shadow: 0 0 20px 5px var(--yaziRenk);
+    border-radius: 20px;
+}
+#bolum1 .col-md-3:hover img {    scale: 0.7;   }
+#bolum1 .col-md-3:hover h5 { color: var(--headerBG); margin-top: 10px; }
