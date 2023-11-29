@@ -46,6 +46,13 @@ https://github.com/damlahub/Frontend-Dev-Course/assets/69016971/84742710-861c-42
   
 https://github.com/damlahub/Frontend-Dev-Course/assets/69016971/c24498af-b96b-428e-a2fa-0554bd02b460
 
+## [Hafta 07](https://github.com/damlahub/Frontend-Dev-Course/tree/main/Hafta7-JavaScript)
+- JavaScript'e Giriş
+- Ödev:
+  
+https://github.com/damlahub/Frontend-Dev-Course/assets/69016971/1af5da8a-6169-4b8e-a5f1-0eaf43e0250d
+
+
 ## KURS HAKKINDA
 Kurs, İstanbul ilinin Bahçelievler ilçesinde bulunmaktadır. İnternet üzerinden kayıt olmanız mümkündür. Bilişim alanında birçok ücretsiz eğitim bulunmaktadır. İncelemek isterseniz aşağıdaki linki kullanabilirsiniz.
 
