@@ -52,7 +52,11 @@ https://github.com/damlahub/Frontend-Dev-Course/assets/69016971/c24498af-b96b-42
   
 https://github.com/damlahub/Frontend-Dev-Course/assets/69016971/1af5da8a-6169-4b8e-a5f1-0eaf43e0250d
 
-
+## [Hafta 08](https://github.com/damlahub/Frontend-Dev-Course/tree/main/Hafta8-JavaScript)
+- Döngüler
+- SetInterval
+- counterUp(jQuery)
+  
 ## KURS HAKKINDA
 Kurs, İstanbul ilinin Bahçelievler ilçesinde bulunmaktadır. İnternet üzerinden kayıt olmanız mümkündür. Bilişim alanında birçok ücretsiz eğitim bulunmaktadır. İncelemek isterseniz aşağıdaki linki kullanabilirsiniz.
 
