@@ -1,4 +1,5 @@
 
+
 function parolaGoster() {
     var ctrl = document.getElementById("password");
     if (ctrl.type == "password"){
